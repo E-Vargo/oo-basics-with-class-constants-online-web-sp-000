@@ -8,7 +8,8 @@ class Shoe
     @brand = brand
     if BRANDS == []
       BRANDS << brand
-    else BRANDS.each do |i|
+    else 
+      BRANDS.each do |i|
       if i != brand
         BRANDS << brand
       end

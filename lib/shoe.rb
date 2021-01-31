@@ -11,6 +11,7 @@ class Shoe
         BRANDS << i
       end
   end
+end
 
   def cobble
     self.condition = "new"

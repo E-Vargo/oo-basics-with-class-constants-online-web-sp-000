@@ -8,11 +8,10 @@ class Shoe
     @brand = brand
     if BRANDS == []
       BRANDS << brand
-    else
-      BRANDS.all? do |i|
-      if i != brand
-        BRANDS << brand
-      end
+    elsif BRANDS.all? {|i| i != brand}
+      BRANDS << brand
+      
+    
     end
   end
   end

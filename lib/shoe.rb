@@ -10,11 +10,9 @@ class Shoe
       BRANDS << brand
     elsif BRANDS.all? {|i| i != brand}
       BRANDS << brand
-
-
     end
   end
-  end
+
 
   def cobble
     self.condition = "new"

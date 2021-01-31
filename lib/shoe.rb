@@ -9,7 +9,7 @@ class Shoe
     if BRANDS == []
       BRANDS << brand
     else
-      BRANDS.all do |i|
+      BRANDS.all? do |i|
       if i != brand
         BRANDS << brand
       end

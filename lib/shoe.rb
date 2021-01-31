@@ -9,7 +9,7 @@ class Shoe
     if BRANDS == []
       BRANDS << brand
     else
-      BRANDS.each do |i|
+      BRANDS.find do |i|
       if i != brand
         BRANDS << brand
       end
